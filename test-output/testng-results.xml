@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-28T19:29:25 IST" name="Default suite" finished-at="2025-08-28T19:29:39 IST" duration-ms="13813">
+  <suite started-at="2025-08-28T20:14:14 IST" name="Default suite" finished-at="2025-08-28T20:14:21 IST" duration-ms="6858">
     <groups>
     </groups>
-    <test started-at="2025-08-28T19:29:25 IST" name="Default test" finished-at="2025-08-28T19:29:39 IST" duration-ms="13813">
-      <class name="tutorials.TC_RF_003">
-        <test-method signature="verifyRegisterAccountWithAllFields()[pri:0, instance:tutorials.TC_RF_003@3e27aa33]" started-at="2025-08-28T19:29:25 IST" name="verifyRegisterAccountWithAllFields" finished-at="2025-08-28T19:29:39 IST" duration-ms="13678" status="PASS">
+    <test started-at="2025-08-28T20:14:14 IST" name="Default test" finished-at="2025-08-28T20:14:21 IST" duration-ms="6858">
+      <class name="tutorials.TC_RF_004">
+        <test-method signature="verifyRegistringAccountWithoutFillField()[pri:0, instance:tutorials.TC_RF_004@750e2b97]" started-at="2025-08-28T20:14:14 IST" name="verifyRegistringAccountWithoutFillField" finished-at="2025-08-28T20:14:21 IST" duration-ms="6746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountWithAllFields -->
-      </class> <!-- tutorials.TC_RF_003 -->
+        </test-method> <!-- verifyRegistringAccountWithoutFillField -->
+      </class> <!-- tutorials.TC_RF_004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
