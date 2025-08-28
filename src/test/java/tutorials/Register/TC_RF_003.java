@@ -1,5 +1,4 @@
-package tutorials;
-
+package tutorials.Register;
 import java.time.Duration;
 import java.util.Date;
 

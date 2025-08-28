@@ -1,4 +1,4 @@
-package tutorials;
+package tutorials.Register;
 
 import static org.testng.Assert.assertEquals;
 
