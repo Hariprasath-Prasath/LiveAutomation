@@ -33,7 +33,6 @@ public class TC_RF_009 {
 		Assert.assertEquals(driver.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']")).getText(), actuleEmailWarning);
 		
 		driver.quit();
-		
 	}
 
 }
