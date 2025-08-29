@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-28T22:04:14 IST" name="Default suite" finished-at="2025-08-28T22:04:19 IST" duration-ms="5422">
+  <suite started-at="2025-08-29T13:44:38 IST" name="Default suite" finished-at="2025-08-29T13:44:43 IST" duration-ms="4507">
     <groups>
     </groups>
-    <test started-at="2025-08-28T22:04:14 IST" name="Default test" finished-at="2025-08-28T22:04:19 IST" duration-ms="5422">
-      <class name="tutorials.Register.TC_RF_006">
-        <test-method signature="verifyRegisterAccoutWithNoOption()[pri:0, instance:tutorials.Register.TC_RF_006@2e385cce]" started-at="2025-08-28T22:04:14 IST" name="verifyRegisterAccoutWithNoOption" finished-at="2025-08-28T22:04:19 IST" duration-ms="5359" status="PASS">
+    <test started-at="2025-08-29T13:44:38 IST" name="Default test" finished-at="2025-08-29T13:44:43 IST" duration-ms="4507">
+      <class name="tutorials.Register.TC_RF_007">
+        <test-method signature="verifingRegisterAccountUsingMultileWays()[pri:0, instance:tutorials.Register.TC_RF_007@3e27aa33]" started-at="2025-08-29T13:44:38 IST" name="verifingRegisterAccountUsingMultileWays" finished-at="2025-08-29T13:44:43 IST" duration-ms="4454" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccoutWithNoOption -->
-      </class> <!-- tutorials.Register.TC_RF_006 -->
+        </test-method> <!-- verifingRegisterAccountUsingMultileWays -->
+      </class> <!-- tutorials.Register.TC_RF_007 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
