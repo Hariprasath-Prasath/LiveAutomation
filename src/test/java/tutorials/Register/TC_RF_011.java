@@ -10,6 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import utils.Utilitis;
+
 public class TC_RF_011 {
 	WebDriver driver;
 	
@@ -25,7 +27,7 @@ public class TC_RF_011 {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("Arun");
 		driver.findElement(By.id("input-lastname")).sendKeys("Kumar");
-		driver.findElement(By.id("input-email")).sendKeys(getMailID());
+		driver.findElement(By.id("input-email")).sendKeys(Utilitis.getNewMailID());
 		driver.findElement(By.id("input-telephone")).sendKeys("1111");
 		driver.findElement(By.id("input-password")).sendKeys("12345");
 		driver.findElement(By.id("input-confirm")).sendKeys("12345");
@@ -37,12 +39,6 @@ public class TC_RF_011 {
 		
 		Assert.assertEquals(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).getText(), expectedWarning);
 		
-	}
-	
-	public String getMailID() {
-		Date date = new Date();
-		return date.toString().replaceAll("\\s", "").replaceAll("\\:", "")+"@gmail.com";
-
 	}
 	
 	@AfterMethod

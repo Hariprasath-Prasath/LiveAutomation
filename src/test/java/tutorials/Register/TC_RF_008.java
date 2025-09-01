@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import utils.Utilitis;
+
 public class TC_RF_008 {
 	
 	@Test
@@ -24,7 +26,7 @@ public class TC_RF_008 {
 		
 		driver.findElement(By.id("input-firstname")).sendKeys("Arun");
 		driver.findElement(By.id("input-lastname")).sendKeys("Kumar");
-		driver.findElement(By.id("input-email")).sendKeys(getNewMail());
+		driver.findElement(By.id("input-email")).sendKeys(Utilitis.getNewMailID());
 		driver.findElement(By.id("input-telephone")).sendKeys("1234569870");
 		driver.findElement(By.id("input-password")).sendKeys("12345");
 		driver.findElement(By.id("input-confirm")).sendKeys("adcbe");
@@ -39,12 +41,6 @@ public class TC_RF_008 {
 		
 		driver.quit();
 		
-	}
-	
-	public String getNewMail() {
-		Date date = new Date();
-		return date.toString().replaceAll("\\s", "").replaceAll("\\:", "")+"@gmail.com";
-
 	}
 
 }
