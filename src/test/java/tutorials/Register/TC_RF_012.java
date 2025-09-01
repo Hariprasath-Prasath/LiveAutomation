@@ -40,7 +40,7 @@ public class TC_RF_012 {
 		action.sendKeys("12345").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB).perform();
 		action.sendKeys(Keys.ARROW_LEFT).pause(Duration.ofSeconds(1)).sendKeys(Keys.SPACE).perform();
 		action.sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.SPACE).pause(Duration.ofSeconds(1)).perform();
-		action.sendKeys(Keys.TAB).pause(Duration.ofSeconds(1)).sendKeys(Keys.SPACE).perform();
+		action.sendKeys(Keys.TAB).pause(Duration.ofSeconds(1)).sendKeys(Keys.ENTER).perform();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//aside[@id=\"column-right\"]//a[text()='Logout']")).isDisplayed());
 		
