@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T19:21:59 IST" name="Default suite" finished-at="2025-09-15T19:22:04 IST" duration-ms="4837">
+  <suite started-at="2025-09-15T20:26:18 IST" name="Default suite" finished-at="2025-09-15T20:26:22 IST" duration-ms="4577">
     <groups>
     </groups>
-    <test started-at="2025-09-15T19:21:59 IST" name="Default test" finished-at="2025-09-15T19:22:04 IST" duration-ms="4837">
-      <class name="tutorials.Register.TC_RF_021">
-        <test-method signature="verifyRegisteringAccountWithoutSelectingPrivacyPolicy()[pri:0, instance:tutorials.Register.TC_RF_021@33065d67]" started-at="2025-09-15T19:21:59 IST" name="verifyRegisteringAccountWithoutSelectingPrivacyPolicy" finished-at="2025-09-15T19:22:04 IST" duration-ms="4786" status="PASS">
+    <test started-at="2025-09-15T20:26:18 IST" name="Default test" finished-at="2025-09-15T20:26:22 IST" duration-ms="4577">
+      <class name="tutorials.Register.TC_RF_022">
+        <test-method signature="verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility()[pri:0, instance:tutorials.Register.TC_RF_022@33065d67]" started-at="2025-09-15T20:26:18 IST" name="verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility" finished-at="2025-09-15T20:26:22 IST" duration-ms="4526" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountWithoutSelectingPrivacyPolicy -->
-      </class> <!-- tutorials.Register.TC_RF_021 -->
+        </test-method> <!-- verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility -->
+      </class> <!-- tutorials.Register.TC_RF_022 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
