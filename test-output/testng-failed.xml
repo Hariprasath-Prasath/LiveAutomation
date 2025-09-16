@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorials.Register.TC_RF_019">
+      <class name="tutorials.Register.TC_RF_023">
         <methods>
-          <include name="verifyLeadingAndTrailingPaceWhileRegisteringAccount"/>
-          <include name="tearDown"/>
+          <include name="navigatingToCheckingVerifyEveryLinkOnRegisterAccountPage"/>
         </methods>
-      </class> <!-- tutorials.Register.TC_RF_019 -->
+      </class> <!-- tutorials.Register.TC_RF_023 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

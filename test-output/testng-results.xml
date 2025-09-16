@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T20:26:18 IST" name="Default suite" finished-at="2025-09-15T20:26:22 IST" duration-ms="4577">
+  <suite started-at="2025-09-16T19:11:01 IST" name="Default suite" finished-at="2025-09-16T19:11:15 IST" duration-ms="14095">
     <groups>
     </groups>
-    <test started-at="2025-09-15T20:26:18 IST" name="Default test" finished-at="2025-09-15T20:26:22 IST" duration-ms="4577">
-      <class name="tutorials.Register.TC_RF_022">
-        <test-method signature="verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility()[pri:0, instance:tutorials.Register.TC_RF_022@33065d67]" started-at="2025-09-15T20:26:18 IST" name="verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility" finished-at="2025-09-15T20:26:22 IST" duration-ms="4526" status="PASS">
+    <test started-at="2025-09-16T19:11:01 IST" name="Default test" finished-at="2025-09-16T19:11:15 IST" duration-ms="14095">
+      <class name="tutorials.Register.TC_RF_023">
+        <test-method signature="navigatingToCheckingVerifyEveryLinkOnRegisterAccountPage()[pri:0, instance:tutorials.Register.TC_RF_023@33065d67]" started-at="2025-09-16T19:11:01 IST" name="navigatingToCheckingVerifyEveryLinkOnRegisterAccountPage" finished-at="2025-09-16T19:11:15 IST" duration-ms="14065" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountPasswordFunctionalityToggledToHideVisibility -->
-      </class> <!-- tutorials.Register.TC_RF_022 -->
+        </test-method> <!-- navigatingToCheckingVerifyEveryLinkOnRegisterAccountPage -->
+      </class> <!-- tutorials.Register.TC_RF_023 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
