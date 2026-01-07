@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorials.Register.TC_RF_027">
+      <class name="tutorials.tests.Register">
         <methods>
-          <include name="verifyRegistringAccountWithDifferentEnvironments" invocation-numbers="1"/>
+          <include name="verifyRegisterAccoutWithNoOption"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifingRigisteringAccoundNewsletterfield"/>
         </methods>
-      </class> <!-- tutorials.Register.TC_RF_027 -->
+      </class> <!-- tutorials.tests.Register -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

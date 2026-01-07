@@ -2,8 +2,10 @@ package utils;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Date;
+import java.util.Properties;
 
 import javax.imageio.ImageIO;
 
@@ -26,5 +28,17 @@ public class Utilitis {
 		return diff.hasDiff();
 		
 	}
+	
+	public static Properties loadProperties() {
+		Properties prop = new Properties();
+		try{
+			FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\projectData.properties");
+			prop.load(fr);
+		} catch(IOException e ){
+			e.printStackTrace();
+		}
+		return prop;
+	}
+	
 
 }
